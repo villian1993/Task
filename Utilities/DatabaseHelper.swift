@@ -23,7 +23,7 @@ class DatabaseHelper {
             debugPrint(error)
         }
     }
-    // Fetch Details of Task Method
+    // Fetch details of Task Method
     func getToDoTaskData() -> [ToDoTask] {
         var toDoTask = [ToDoTask]()
         let fetchRequest = NSFetchRequest<NSManagedObject>(entityName: "ToDoTask")
